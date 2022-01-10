@@ -1,5 +1,4 @@
 from turtle import Turtle
-
 '''
 A file to be imported into the turtle_crossing file
 '''

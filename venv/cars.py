@@ -1,5 +1,8 @@
 from turtle import Turtle
-import random
+import random 
+'''
+A file to be imported into the turtle_crossing file
+'''
 
 class Car(Turtle):
     def __init__(self, start_y_dict, start_list, level):

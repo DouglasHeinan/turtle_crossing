@@ -1,5 +1,8 @@
 from turtle import Turtle
 import time
+'''
+A file to be imported into the turtle_crossing file
+'''
 
 ALIGNMENT = 'center'
 FONT = 'Ariel'
