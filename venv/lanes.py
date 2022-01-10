@@ -1,5 +1,9 @@
 from turtle import Turtle
 
+'''
+A file to be imported into the turtle_crossing file
+'''
+
 class Lanes(Turtle):
     def __init__(self):
         super().__init__()
