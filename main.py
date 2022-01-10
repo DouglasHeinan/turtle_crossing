@@ -5,7 +5,9 @@ from cars import Car
 from update import Update
 import random
 import time
-
+'''
+The main file
+'''
 
 def main():
     screen = Screen()
