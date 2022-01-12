@@ -40,7 +40,7 @@ def main():
         screen.update()
         time.sleep(.1)
 
-        make_new = random.randrange(0, 2)
+        make_new = random.randrange(0, 1)
         if make_new == 0:
             new_car = Car(start_y_dict, start_list, level)
             car_list = add_car(car_list, new_car)
@@ -116,7 +116,8 @@ def add_car(car_list, new_car):
         if car.distance(new_car) < 20:
             new_car.hideturtle()
             new_car.goto(-310, 0)
-    car_list.append(new_car)
+    if new_car.xcor() > -309:
+        car_list.append(new_car)
     return car_list
 
 
